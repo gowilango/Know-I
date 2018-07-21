@@ -1,13 +1,13 @@
 import { MaterialModule } from './material.module';
 
 describe('MaterialModule', () => {
-  let frontendModule: MaterialModule;
+  let materialModule: MaterialModule;
 
   beforeEach(() => {
-    frontendModule = new MaterialModule();
+    materialModule = new MaterialModule();
   });
 
   it('should create an instance', () => {
-    expect(frontendModule).toBeTruthy();
+    expect(materialModule).toBeTruthy();
   });
 });
