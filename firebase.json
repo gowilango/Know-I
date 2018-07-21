@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public/dist/know-i",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

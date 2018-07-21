@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "know-i": "know-i-web",
+    "default": "know-i-web"
+  }
+}

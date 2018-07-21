@@ -1,0 +1,27 @@
+<mat-accordion class="fixed-header">
+  <mat-expansion-panel style="background-color: #E09716 !important;">
+    <mat-expansion-panel-header style="background-color: #E09716 !important;">
+      <mat-panel-title>
+        <a href="/">
+          <img src="assets/favicon.jpeg" alt="Know-I Logo" width="40" height="40">
+        </a>
+      </mat-panel-title>
+      <mat-panel-description>
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <button mat-menu-item [matMenuTriggerFor]="groups">Groups</button>
+    <a mat-menu-item style="text-decoration: none !important;" routerLink=".">About</a>
+    <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Members</a>
+    <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Blog</a>
+    <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Gallery</a>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<!-- values -->
+<mat-menu #groups="matMenu">
+  <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Web</a>
+  <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Android App</a>
+  <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Design</a>
+  <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Coding (Competitive)</a>
+  <a mat-menu-item style="text-decoration: none !important;" routerLink=".">Academic-Research</a>
+</mat-menu>
