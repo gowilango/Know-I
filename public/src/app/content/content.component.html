@@ -1,3 +1,24 @@
-<p>
-  content works!
-</p>
+<!-- for fixed navbar -->
+<div style="margin-top: 50px;"> </div>
+<!-- angular flex -->
+<!-- angular flex media queries
+xs	'screen and (max-width: 599px)' 4 inch phones
+sm	'screen and (min-width: 600px) and (max-width: 959px)' 5 inch phones
+md	'screen and (min-width: 960px) and (max-width: 1279px)' tall phone
+lg	'screen and (min-width: 1280px) and (max-width: 1919px)' HD +
+xl	'screen and (min-width: 1920px) and (max-width: 5000px)' 2k to 4k
+-->
+<div class="bounds">
+    <div class="content" fxLayout="column" fxLayout.xs="column" fxLayout.sm="column" fxLayout.md="column" fxLayout.lg="column"
+        fxLayout.xl="column" fxFlexFill>
+
+        <div fxFlex="100" class="sec1" fxFlex.xs="72" fxFlex.sm="72" fxFlex.md="80" fxFlex.lg="90" fxFlex.xl="90">
+            <span> </span>
+            <h1>
+                <a class="typewrite" data-period="1000" data-type='[ "Know-I", "Creative" ]'></a>
+            </h1>
+        </div>
+
+    </div>
+
+</div>
