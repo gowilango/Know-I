@@ -13,6 +13,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ContentComponent } from './content/content.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { ContentComponent } from './content/content.component';
     // newly created components should come here
     AppComponent,
     NavComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent
 
   ],
   providers: [],
