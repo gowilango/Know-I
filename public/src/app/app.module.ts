@@ -22,6 +22,7 @@ import { ContentComponent } from './content/content.component';
     MaterialModule,
     NgbModule.forRoot(),
     FlexLayoutModule
+
   ],
   declarations: [
     // newly created components should come here
