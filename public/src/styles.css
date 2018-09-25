@@ -11,6 +11,8 @@
 /* bootstrap (for some components( */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css";
+/* fullpage.js cdn */
+@import "https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.2/fullpage.css";
 
 /* global style goes here  */
 
