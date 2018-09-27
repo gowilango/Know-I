@@ -1,3 +1,6 @@
 	var myFullpage = new fullpage('#fullpage', {
-        sectionsColor: ['#ba4848', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff']
-	});
+		sectionsColor: ['#db3236', '', '', ''],
+		anchors: ['home', 'about', 'team', 'contact'],
+		menu: '#myMenu',
+		navigation: true
+	      });

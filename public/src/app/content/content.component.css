@@ -312,3 +312,19 @@ p{
 	z-index: 999;
  }
 
+.sectionone{
+background-image: url('/assets/coral.jpeg');
+color: white;
+}
+
+.sectiontwo{
+color : black;
+}
+
+.sectionthree{
+color : black;
+}
+
+.sectionfour{
+color : black;
+}

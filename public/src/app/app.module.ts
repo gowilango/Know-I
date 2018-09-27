@@ -14,6 +14,17 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
+import { GroupsComponent } from './groups/groups.component';
+import { AboutComponent } from './about/about.component';
+import { MembersComponent } from './members/members.component';
+import { BlogComponent } from './blog/blog.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { WebComponent } from './groups/web/web.component';
+import { AndroidComponent } from './groups/android/android.component';
+import { DesignComponent } from './groups/design/design.component';
+import { CodingComponent } from './groups/coding/coding.component';
+import { AcademicComponent } from './groups/academic/academic.component';
+
 
 @NgModule({
   imports: [
@@ -30,7 +41,17 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     NavComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    GroupsComponent,
+    AboutComponent,
+    MembersComponent,
+    BlogComponent,
+    GalleryComponent,
+    WebComponent,
+    AndroidComponent,
+    DesignComponent,
+    CodingComponent,
+    AcademicComponent
 
   ],
   providers: [],
